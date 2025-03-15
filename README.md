@@ -75,4 +75,4 @@ O objetivo do Azure AI Search nesse projeto foi fazer a análise de comentários
 
 O Azure Cognitive Search conseguiu analisar avaliações de consumidores para identificar tendências, sentimentos e informações úteis.
 A Inteligência artificial é de suma importância nesse processo, pois realiza uma mineração nos dados encontrados, encontrando insights valiosos de dados estrurados e não estruturados.
-Por fim, esse serviço mostra ser muito útil às empresas que desejam melhorar os seus resultados de uma forma rápida e otimizada, com o uso da Inteligência Artificial..
+Por fim, esse serviço mostra ser muito útil às empresas que desejam melhorar os seus resultados de uma forma rápida e otimizada, com o uso da Inteligência Artificial.
