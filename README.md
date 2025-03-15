@@ -1,63 +1,79 @@
-# Criando um Board de Tarefas com Java
-
+# Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados 
 <h1 align="center">
-    <img alt="Gobarber" src="img\board.jpg" width="300px" />
+    <img alt="Gobarber" src="Output/imagem6.png" width="300px"
 </h1>
 
+
 ## Descrição do Projeto
-
-Neste projeto, desenvolvi uma aplicação de gerenciamento de tarefas utilizando Java, com foco nas melhores práticas de desenvolvimento. O objetivo foi criar um board de tarefas funcional, passando por todas as etapas do processo, desde o planejamento e estruturação até a implementação de funcionalidades como gerenciamento de dados e integração entre camadas. A aplicação foi desenvolvida seguindo as melhores práticas de programação e boas práticas de design de software.
-
-A aplicação permite gerenciar tarefas em diferentes estágios, como **To Do**, **In Progress** e **Done**, com uma interface para a movimentação de cards de tarefa entre esses estados.
-
-O principal desafio foi a integração com o SQL Server, onde foram enfrentados problemas relacionados ao uso de aliases nas consultas SQL. Durante o processo de integração, surgiram dificuldades ao configurar a conexão e ao adaptar a estrutura de código para funcionar adequadamente com o banco de dados SQL Server. A solução envolveu a reconfiguração das dependências no projeto para garantir a compatibilidade com o SQL Server, incluindo a configuração do driver JDBC apropriado. Essas mudanças levaram à reescrita de várias classes responsáveis por realizar inserções no banco de dados, como as classes DAO (Data Access Object), para garantir que os dados fossem inseridos corretamente nas tabelas. 
+ 
+ Esse projeto foi desenvolvido através do Azure Cognitive Search, onde ajudou a encontrar opiniões de clientes de uma cafeteria a respeito de seus serviços. Esse serviço do Azure, ajuda a encontrar informações rapidamente em documentos, bancos de dados e sites, utilizando a inteligência artifical para tornar a busca mais rápida e otimizada.
+ 
+ 
 
 
-###  Objetivos do Projeto:
+Serviços e ferramentas utilizadas no desenvolvimento desse projeto:
 
-- Criar um board de tarefas funcional com **movimentação de cards** entre diferentes estados.
-- Implementar uma **camada de persistência** eficiente, com integração a um banco de dados.
-- Aplicar boas práticas de **arquitetura de software**, como camadas bem definidas (DTO, DAO, Service).
-- Utilizar o **Liquibase** para controle de versão do banco de dados e migrações.
+- Criação do azure AI Search, um serviço de busca inteligente que permite encontrar informações rapidamente em textos, imagens e áudios. Ele usa inteligência artificial para realizar esses processos;
+
+
+- SERVIÇO DE IA, e AI+MACHINE LEARNING, usado para analisar dados, automatizar processos, criar previsões e melhorar a tomada de decisões em diversos setores;
+
+
+- Storage Account, um serviço de armazenamento em nuvem que permite guardar e gerenciar dados estruturados e não estruturados, como arquivos, blobs, filas, tabelas e discos;
+
+- O Azure Container Service, que ajudou a buscar dados do computador e levá-los para a nuvem, através do Azure Blob Storage.
+
+
+##  Objetivos do Projeto:
+O objetivo do Azure AI Search nesse projeto foi fazer a análise de comentários de clientes de uma cafeteria e, a partir disso, extrair insights valiosos a partir de avaliações e feedbacks, tanto positivos quanto negativos. Todos esses processos se deu de forma rápida, e otimizada, uma vez que a Inteligência Artifical é parte fundamental desse processo.
+
+
 
 ### Capturas de Tela da Execução do Projeto
 
-Aqui estão algumas capturas de tela que ilustram o funcionamento do board de tarefas:
+ Capturas de tela que ilustram o funcionamento do Azure AI Search:
 
-####  Tela 1: Cadastro de um board de tarefas  e visualização no banco de dados
+####  Criação do AL Search, através do Azure Al services
 <h1 align="center">
-    <img alt="Gobarber" src="img\board_execucao.png"/>
-</h1>
-<h1 align="center">
-    <img alt="Gobarber" src="img\board_db.png"/>
+    <img alt="Gobarber" src="Output/imagem5.png" />
 </h1>
 
-####  Tela 2: Cadastro de um card e visualização no banco de dados
-<h1 align="center">
-    <img alt="Gobarber" src="img\board_cadastro_card.png"/>
-</h1>
-<h1 align="center">
-    <img alt="Gobarber" src="img\board_card_db.png"/>
+#### All services, selecionando a opção AI + Machine Learning
+<h1 align="center"> 
+    <img alt="Gobarber" src="Output/imagem7.png" />
 </h1>
 
-####  Tela 3: Alteração do status do Card e visualização no banco de dados
+#### Storage Account, para o armazenamento de dados
 <h1 align="center">
-    <img alt="Gobarber" src="img\board_card_modificado.png"/>
-</h1>
-<h1 align="center">
-    <img alt="Gobarber" src="img\board_card_modificado_db.png"/>
+    <img alt="Gobarber" src="Output/imagem8.png"/>
 </h1>
 
-####  Tela 4: Exclução do Board 
+#### Criação de um container chamado "coffe index" com o intuito de buscar dados do computador e levar para a nuvem do Azure
 <h1 align="center">
-    <img alt="Gobarber" src="img\board_excluir.png"/>
+    <img alt="Gobarber" src="Output/imagem4.png"/>
 </h1>
 
+#### Search explorer para analisar os dados buscados anteriormente
 <h1 align="center">
-    <img alt="Gobarber" src="img\board_excluir_db.png"/>
+    <img alt="Gobarber" src="Output/imagem3.png"/>
 </h1>
+
+####  Buscando sentimentos negativos das avaliações 
+<h1 align="center">
+    <img alt="Gobarber" src="Output/imagem1.png"/>
+</h1>
+
+#### Buscando sentimentos positivos das avaliações
+<h1 align="center">
+    <img alt="Gobarber" src="Output/iimagem2.png"/>
+</h1>
+
 
 ---
 
 ## Conclusão
-Este projeto foi uma excelente oportunidade para aplicar os conceitos aprendidos no Decola Tech. A criação de um board de tarefas em Java me permitiu praticar e melhorar minhas habilidades em desenvolvimento de software e arquitetura de sistemas. Além disso, a implementação de uma solução escalável e eficiente com boas práticas de codificação foi fundamental para o aprendizado.
+
+O Azure Cognitive Search conseguiu analisar avaliações de consumidores para identificar tendências, sentimentos e informações úteis.
+A Inteligência artificial é de suma importância nesse processo, pois realiza uma mineração nos dados encontrados, encontrando insights valiosos de dados estrurados e não estruturados.
+Por fim, esse serviço mostra ser muito útil às empresas que desejam melhorar os seus resultados de uma forma rápida e otimizada, com o uso da Inteligência Artificial.
+
